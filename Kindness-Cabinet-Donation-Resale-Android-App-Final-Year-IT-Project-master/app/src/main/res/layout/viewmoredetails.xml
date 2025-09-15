@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#E6FFFFFF"
+        app:cardCornerRadius="12sp"
+        app:cardElevation="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:layout_marginEnd="5sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+        <TextView
+            android:id="@+id/et_product_cat_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:hint="Product Category"
+            android:textColorHint="@color/black" />
+
+        <ImageView
+            android:id="@+id/et_product_image_title"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/books"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/et_product_name_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:hint="product_name"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/et_paid_status_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:hint="paid_status"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/et_productrating_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:hint="productrating"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/et_quantity_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:hint="quantity"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/et_description_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:hint="description"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/et_pickup_location_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:hint="pickup_location"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/et_pickup_option_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:hint="pickup_option"
+            android:textColorHint="@color/black" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

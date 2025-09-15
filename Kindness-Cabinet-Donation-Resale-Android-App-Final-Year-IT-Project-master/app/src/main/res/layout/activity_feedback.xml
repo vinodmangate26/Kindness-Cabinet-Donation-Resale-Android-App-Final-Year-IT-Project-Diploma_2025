@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback.Feedback_Activity">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/progress"
+        android:layout_marginTop="120dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_feedback_title"
+            android:hint="Feeback Title"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:padding="16dp"/>
+
+        <requestFocus />
+
+        <TextView
+            android:id="@+id/txt_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_bg_shape"
+            android:gravity="center"
+            android:text=" Feedback Description :"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/edt_feedback_description"
+            android:hint="Write Your Feedback Here"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:background="@drawable/et_shape"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_submit_feedback"
+            android:text="Submit Feebback"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:padding="4dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_bg_shape"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress1"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

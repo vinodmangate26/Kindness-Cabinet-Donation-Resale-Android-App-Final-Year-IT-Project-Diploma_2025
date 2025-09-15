@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Kindness Cabinet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="select_product_category">
+        <item>Select Product Category</item>
+        <item>Select PickUp Option for Donate</item>
+        <item>Sent Through Post Office</item>
+        <item>Self Delivery to Location</item>
+        <item>Seller Came to Location for Product</item>
+    </string-array>
+
+    <string-array name="pickup_option">
+        <item>Select PickUp Option for Donate</item>
+        <item>Sent Through Post Office</item>
+        <item>Self Delivery to Location</item>
+        <item>Seller Came to Location for Product</item>
+    </string-array>
+
+</resources>

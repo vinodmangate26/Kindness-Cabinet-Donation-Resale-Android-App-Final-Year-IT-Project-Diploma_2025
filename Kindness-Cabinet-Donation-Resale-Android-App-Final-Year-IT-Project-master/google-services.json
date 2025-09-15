@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "152986418463",
+    "project_id": "otpverification-f3ce5",
+    "storage_bucket": "otpverification-f3ce5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152986418463:android:9265071646f32b7cd4c42a",
+        "android_client_info": {
+          "package_name": "com.gauravpatil.kindnesscabinet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQofLo0lIizzQXNlMY4c9EPKPHsdrKvB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152986418463:android:0c1f0232665440e8d4c42a",
+        "android_client_info": {
+          "package_name": "com.swayam.otpverification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQofLo0lIizzQXNlMY4c9EPKPHsdrKvB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

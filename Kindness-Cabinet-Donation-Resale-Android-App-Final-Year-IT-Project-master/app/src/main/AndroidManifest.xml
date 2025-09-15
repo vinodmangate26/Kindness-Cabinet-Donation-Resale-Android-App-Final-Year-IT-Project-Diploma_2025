@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tagname attributename = "Value" -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Network Information -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission-sdk-23 android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KindnessCabinet"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Admin.AddUser.VerifyOTPActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AllUser.AllUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.History.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AddUser.AddUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.HomeAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProductRequest.ViewProductRequestActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+        <activity
+            android:name=".PaymentGateway.Thank_YouActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentGateway.PaymentGatewayActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+        <activity
+            android:name=".Favorites.MoreDetailsFavouriteActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+        <activity
+            android:name=".History.MoreDetailsAllHistory"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+        <activity
+            android:name=".Favorites.FavoritesActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+        <activity
+            android:name=".Feedback.Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs.About_Us_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Contact.Contact_Us_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CategorywiseProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddDonateorSell.SellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MoreDetailsAllDonateandSellerInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddDonateorSell.DonateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetUp_New_Password_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Forget_Password_Verify_OTP_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Confirm_Register_MobileNo_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".My_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyOTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".App_Info_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.KindnessCabinet.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

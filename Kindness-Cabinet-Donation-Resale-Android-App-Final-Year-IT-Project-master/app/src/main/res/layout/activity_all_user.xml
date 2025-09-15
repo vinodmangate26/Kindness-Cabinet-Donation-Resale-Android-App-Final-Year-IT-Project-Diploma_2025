@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Admin.AllUser.AllUserActivity">
+
+    <!-- Search View -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/svAdminAllUserSearchUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="Search by User name"
+        app:iconifiedByDefault="false"
+        android:background="@drawable/search_bg"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        app:iconTint="@android:color/black"/>
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/lvAdminAllUserAllUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <!-- No Category Available Text -->
+    <TextView
+        android:id="@+id/tvAdminAllUserNoUserAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No User Available"
+        android:textAlignment="center"
+        android:textColor="#226DE1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aldrich"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
